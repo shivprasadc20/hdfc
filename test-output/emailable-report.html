@@ -9,18 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,943</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,566</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">hdfc.demo1</td><td><a href="#m0">landingpage</a></td><td rowspan="1">1692793453259</td><td rowspan="1">7847</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">hdfc.demo1</td><td><a href="#m0">landingpage</a></td><td rowspan="1">1692852056659</td><td rowspan="1">24500</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">hdfc.demo1#landingpage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/niveus/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5556 install /home/niveus/Downloads/selendroid-test-app-0.17.0.apk&apos; exited with code 1&apos;; Command output: adb: failed to install /home/niveus/Downloads/selendroid-test-app-0.17.0.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 23, but found 10]
- 
+<h2>Default test</h2><h3 id="m0">hdfc.demo1#landingpage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The session identified by e42a3788-e147-43f0-a07f-088264e6e294 is not known 
 Host info: host: &apos;ind040100947&apos;, ip: &apos;192.168.209.94&apos;
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-50-generic&apos;, java.version: &apos;18.0.2-ea&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{aapium:deviceName=Android Emulator, appium:Automation Name=Appium, appium:app=/home/niveus/Downloads/selendroid-test-app-0.17.0.apk, appium:platformName=Android, appium:platformversion=14.0, platformName=ANDROID}], desiredCapabilities=Capabilities {aapium:deviceName: Android Emulator, appium:Automation Name: Appium, appium:app: /home/niveus/Downloads/sele..., appium:platformName: Android, appium:platformversion: 14.0, platformName: ANDROID}}]
-Capabilities {aapium:deviceName: Android Emulator, appium:Automation Name: Appium, appium:app: /home/niveus/Downloads/sele..., appium:platformName: Android, appium:platformversion: 14.0, platformName: ANDROID}
+Command: [null, newSession {capabilities=[{aapium:deviceName=SMG 990E, appium:adbExecTimeout=80000, appium:androidDeviceReadyTimeout=80000, appium:Automation Name=Appium, appium:app=/home/niveus/Downloads/2.0.101-UAT.apk, appium:platformName=Android, appium:platformversion=14.0, platformName=ANDROID}], desiredCapabilities=Capabilities {aapium:deviceName: SMG 990E, adbExecTimeout: 80000, androidDeviceReadyTimeout: 80000, appium:Automation Name: Appium, appium:app: /home/niveus/Downloads/2.0...., appium:platformName: Android, appium:platformversion: 14.0, platformName: ANDROID}}]
+Capabilities {aapium:deviceName: SMG 990E, adbExecTimeout: 80000, androidDeviceReadyTimeout: 80000, appium:Automation Name: Appium, appium:app: /home/niveus/Downloads/2.0...., appium:platformName: Android, appium:platformversion: 14.0, platformName: ANDROID}
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
@@ -34,7 +33,7 @@ Capabilities {aapium:deviceName: Android Emulator, appium:Automation Name: Appiu
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:113)
-	at hdfc.demo1.landingpage(demo1.java:27)
+	at hdfc.demo1.landingpage(demo1.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
