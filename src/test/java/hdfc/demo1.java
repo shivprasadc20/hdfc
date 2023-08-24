@@ -27,8 +27,8 @@ public class demo1 {
 		dc.setCapability("appium:app","/home/niveus/Downloads/2.0.101-UAT.apk");
 		dc.setCapability(AndroidMobileCapabilityType.ADB_EXEC_TIMEOUT, 80000);
 		dc.setCapability(AndroidMobileCapabilityType.ANDROID_DEVICE_READY_TIMEOUT, 80000);
-//		 dc.setCapability("appium.appPackage","com.application.hdfcergo.hdfc_ergo");
-//        dc.setCapability("appium.appActivity","com.application.hdfcergo.hdfc_ergo.MainActivity");
+		 dc.setCapability("appium.appPackage","com.application.hdfcergo.hdfc_ergo");
+        dc.setCapability("appium.appActivity","com.application.hdfcergo.hdfc_ergo.MainActivity");
 		
 		URL url=new URL("http://localhost:4723/wd/hub");
 		driver=new AndroidDriver(url,dc);
